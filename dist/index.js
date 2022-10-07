@@ -47,7 +47,7 @@ function Giphy(_ref) {
     className: "gif"
   }, title && _react.default.createElement("p", null, data.data.title), _react.default.createElement("img", {
     alt: "Gif",
-    src: data.data.image_original_url
+    src: data.data.images.original.url
   })));
 }
 
