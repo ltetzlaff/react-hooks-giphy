@@ -22,7 +22,7 @@ function Giphy({ tag, triggers = [], ...config }) {
       {data && (
         <div className="gif">
           {title && <p>{data.data.title}</p>}
-          <img alt="Gif" src={data.data.image_original_url} />
+          <img alt="Gif" src={data.data.images.original.url} />
         </div>
       )}
     </div>
